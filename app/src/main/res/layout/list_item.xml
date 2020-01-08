@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/messageUser"
+        android:textStyle="normal|bold"
+
+     />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/messageTime"
+        android:textStyle="normal"
+
+     />
+
+    <com.github.library.bubbleview.BubbleTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/messageText"
+        android:textStyle="normal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/messageUser"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+        android:textColor="#fff"
+        android:padding="10dp"
+        app:angle="8dp"
+        app:arrowWidth="8dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="10dp"
+        app:arrowLocation="left"
+        app:bubbleColor="#a0f7ea"
+
+     />
+    
+</LinearLayout>

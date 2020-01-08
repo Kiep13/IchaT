@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "364018249876",
+    "firebase_url": "https://chat-program-fc8aa.firebaseio.com",
+    "project_id": "chat-program-fc8aa",
+    "storage_bucket": "chat-program-fc8aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364018249876:android:7d45669011438b53d58481",
+        "android_client_info": {
+          "package_name": "com.NS.ichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364018249876-8fdhc564otstrfe1bbpj8jcg24csrbab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.NS.ichat",
+            "certificate_hash": "bd18927aada64c71b382c9105d0224d40e1c57d2"
+          }
+        },
+        {
+          "client_id": "364018249876-ctb8vg6qqroppg65da3ooues3ooua9i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZMsfVDbTlgw9yDvwYoOzzggu40v-KpUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364018249876-ctb8vg6qqroppg65da3ooues3ooua9i3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
