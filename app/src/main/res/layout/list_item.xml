@@ -38,14 +38,14 @@
         android:layout_below="@id/messageUser"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
 
-        android:textColor="#fff"
+        android:textColor="#000000"
         android:padding="10dp"
         app:angle="8dp"
         app:arrowWidth="8dp"
         app:arrowHeight="10dp"
         app:arrowPosition="10dp"
         app:arrowLocation="left"
-        app:bubbleColor="#a0f7ea"
+        app:bubbleColor="#bbf6ff"
 
      />
     

@@ -4,9 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".MainActivity"
     android:id="@+id/activityMain">
 
+    <include
+        layout="@layout/action_bar"
+        android:id="@+id/action_bar"
+    />
 
     <ImageView
         android:id="@+id/buttonEmoji"
@@ -48,8 +53,8 @@
         android:id="@+id/listOfMessages"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/action_bar"
         android:layout_above="@id/textField"
-        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:divider="@android:color/transparent"
         android:dividerHeight="15sp"
